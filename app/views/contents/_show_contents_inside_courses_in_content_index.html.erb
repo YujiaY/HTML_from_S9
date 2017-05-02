@@ -1,0 +1,33 @@
+  <h1>Contents in Courses</h1>
+
+  <table class="hover">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="1"></th>
+    </tr>
+  </thead>
+
+
+<tbody>
+    <% available_courses.each do |course| %>
+      <tr>
+        <th><%= course.name %></th>
+          <tbody>
+           <td>--Contents showed below--</td>
+           <% course.contents.each do |content| %>
+            <tr>
+            <td><%= content.name %></td>
+            <td><%= link_to 'Show', content %></td>
+           </tr>
+
+          <% end %>
+          <td>--------------------------------</td>
+          </tbody>
+      </tr>
+    <% end %>
+  </tbody>
+
+
+
+</table>

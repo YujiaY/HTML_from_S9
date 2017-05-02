@@ -1,0 +1,9 @@
+lucas 	admin: 	someemail2@example.com 	foobar
+
+
+
+1.how to render the login page if not loginned in? Instead of showing error? ----for the existence of the footer navi.
+
+
+2.Why the offcanvas would just work once? when reach the linked page it would not work again?
+

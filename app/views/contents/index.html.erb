@@ -1,0 +1,69 @@
+<p id="notice"><%= notice %></p>
+
+
+<% content_for :admin do %>
+  <p> You are an Admin! </p>
+<h1>Contents</h1>
+
+<table class="hover">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @allcontents.each do |content| %>
+      <tr>
+        <td><%= content.name %></td>
+        <td><%= link_to 'Show', content %></td>
+        <td><%= link_to 'Edit', edit_content_path(content) %></td>
+        <td><%= link_to 'Destroy', content, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Content', new_content_path , class: 'button success' %>
+
+<% end %>
+
+
+<% content_for :lecturer do %>
+  <P> You are an Lecturer!　</P>
+  <p>　This is the Contents Index for Lecturer!　</p>
+  <h1>Contents</h1>
+  <table class="hover">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="2"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @allcontents.each do |content| %>
+      <tr>
+        <td><%= content.name %></td>
+        <td><%= link_to 'Show', content %></td>
+        <td><%= link_to 'Edit', edit_content_path(content) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<% end %>
+
+<% content_for :student do %>
+  <p>　You are an Student!　</p>
+  <p>　This is the Contents Index for Student!　</p>
+<br>
+<%= render "show_contents_inside_courses_in_content_index", :available_courses => @current_user_courses %>
+<br>
+
+
+<% end %>

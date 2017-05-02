@@ -1,0 +1,38 @@
+<% content_for :admin do %>
+  <p>  You are an Admin!</p>
+  <p>  This is the Courses Create page for Admin! </p>
+  <br>
+
+<h1>New Course</h1>
+
+<%= render 'form', course: @course %>
+
+<%= link_to 'Back', courses_path, class: 'button primary' %>
+<br>
+<% end %>
+
+
+<% content_for :lecturer do %>
+  <P>  You are an Lecturer! </P>
+  <p>  This is the Courses Create page for Lecturer! </p>
+    <br>
+
+    <h1>New Course</h1>
+
+<%= render 'form', course: @course %>
+
+<%= link_to 'Back', courses_path, class: 'button primary' %>
+<br>
+
+<% end %>
+
+
+<% content_for :student do %>
+  <p> You are an Student! </p>
+  <p> This is the Courses Create page for Student! </p>
+  <P> So there is nothing here. T_T & LOL </P>
+  <br>
+  <%= link_to 'Back', courses_path , class: 'button primary'%>
+<br>
+
+<% end %>

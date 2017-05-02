@@ -1,0 +1,19 @@
+<h1>Online Lecture System</h1>
+<p>Please log in with your email and password</p>
+
+<% flash.each do |message_type, message| %>
+  <div><%= message %></div>
+  <%end%>
+
+<div>
+	<%= form_for :session, url: login_path do |f| %>
+	  <%= f.label :email %>
+	  <%= f.email_field :email %>
+
+	  <%= f.label :password %>
+	  <%= f.password_field :password %>
+
+	  <%= f.submit "Log in",class: 'success button'%>
+
+	<% end %>
+</div>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title><%= content_for?(:title) ? yield(:title) : "Online Lecture System" %></title>
+
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+
+
+
+<% if logged_in? %>
+  <div class="off-canvas-wrapper">
+    <div class="off-canvas-absolute position-top" id="mobile-menu" data-off-canvas>
+       <!-- Your menu or Off-canvas content goes here -->
+       <p>Off-Canvas Menu</p>
+    <ul >
+      <li><%= link_to 'Home', users_path %></li>
+      <li><%= link_to 'Courses', courses_path %></li>
+      <li><%= link_to 'Contents', contents_path %></li>
+      <li><%= link_to 'Contact Us', "#" %></li>
+    </ul>
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+    <!-- Your page content lives here -->
+<div class="title-bar show-for-small-only">
+          <div class="title-bar-top">
+            <button class="menu-icon" type="button" data-open="mobile-menu"></button>
+            <span class="title-bar-title">Menu</span>
+          </div>
+        </div>
+
+
+    <%= render 'shared/header' %>
+    <h1>Welcome, <%= current_user.name %>!</h1>
+    <p>
+    <% if current_user.role == "admin" %>
+      <%= yield :admin %>
+    <% elsif  current_user.role.downcase == "student" %>
+      <%= yield :student %>
+    <% elsif current_user.role.downcase.include? "lecturer" %>
+      <%= yield :lecturer %>
+    <% end %>
+    </p>
+    <%= link_to "Log out", logout_path, method: :delete ,class: 'alert button'%>
+    <% else %>
+
+  <!--    <p>Please log in below with your email and password</p>
+       <%= render "shared/login_form" %> -->
+    <% end %>
+
+
+
+    <%= yield %>
+
+    <% if logged_in? %>
+    <%= render 'shared/footer' %>
+    <% end %>
+
+     </div>
+  </div>
+
+
+  </body>
+</html>

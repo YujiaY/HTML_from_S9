@@ -1,0 +1,56 @@
+<p id="notice"><%= notice %></p>
+
+
+<% content_for :admin do %>
+  <p> You are an Admin! </p>
+  <br>
+  <p>
+  <strong>Name:</strong>
+  <%= @course.name %>
+  </p>
+  <p>
+  <%= link_to 'Edit', edit_course_path(@course), class: 'button primary' %>
+  <%= link_to 'Back', courses_path , class: 'button primary'%>
+</p>
+
+
+<br>
+  <%= render "edit_contents_in_courses_page" , :course => @course %>
+<br>
+
+<% end %>
+
+<% content_for :lecturer do %>
+  <P> You are an Lecturer! </P>
+  <p> This is the Courses Show page for Lecturer! </p>
+    <br>
+    <p>
+  <strong>Name:</strong>
+  <%= @course.name %>
+	</p>
+    <br>
+  <%= link_to 'Edit', edit_course_path(@course) , class: 'button primary'%>
+  <%= link_to 'Back', courses_path, class: 'button primary' %>
+
+<br>
+  <%= render "edit_contents_in_courses_page" , :course => @course %>
+<br>
+
+<% end %>
+
+
+<% content_for :student do %>
+  <p> You are an Student! </p>
+  <p> This is the Courses Show page for Student! </p>
+  <br>
+  <p>
+<strong>Name:</strong>
+  <%= @course.name %>
+  </p>
+
+  <%= render "show_contents_in_course_page", :course => @course  %>
+
+
+	<%= link_to 'Back', courses_path , class: 'button primary'%>
+	<br>
+<% end %>

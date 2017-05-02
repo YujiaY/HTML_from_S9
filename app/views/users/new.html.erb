@@ -1,0 +1,27 @@
+<% content_for :admin do %>
+  <p> You are an Admin! </p>
+
+<h1>New User</h1>
+
+<%= render 'form', user: @user %>
+
+<%= link_to 'Back', users_path , class: 'button primary' %>
+
+<br>
+
+
+<% end %>
+
+<% content_for :lecturer do %>
+  <P> You are an Lecturer!"  </P>
+  <p>  This is the User Create Page for Lecturer! </p>
+  <P> So there is nothing here. T_T & LOL </P>
+  <%= link_to 'Back-tobefix', users_path , class: 'button primary' %>
+<% end %>
+
+<% content_for :student do %>
+  <p> You are an Student!" </p>
+  <p> This is the User Create Page for Student! </p>
+  <P> So there is nothing here. T_T & LOL </P>
+  <%= link_to 'Back-tobefix', users_path , class: 'button primary'%>
+<% end %>

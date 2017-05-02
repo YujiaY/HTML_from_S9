@@ -1,0 +1,97 @@
+<p id="notice"><%= notice %></p>
+
+
+<% content_for :admin do %>
+  <p> You are an Admin! </p>
+<p>
+  <strong>Name:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>Role:</strong>
+  <%= @user.role %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+
+<p>
+  <strong>Password digest:</strong>
+  <%= @user.password_digest %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) , class: 'button primary' %>
+<%= link_to 'Back', users_path , class: 'button primary'  %>
+
+<% end %>
+
+
+
+<% content_for :lecturer do %>
+  <p>You are an Lecturer! </p>
+
+  <p>
+  <strong>Name:</strong>
+  <%= current_user.name %>
+</p>
+
+<p>
+  <strong>Role:</strong>
+  <%= current_user.role %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= current_user.email %>
+</p>
+
+<p>
+  <strong>Password digest:</strong>
+  <%= current_user.password_digest %>
+</p>
+<br>
+<%= link_to 'Edit', edit_user_path(current_user) , class: 'button primary'  %>
+<%= link_to 'Back', users_path , class: 'button primary'  %>
+
+<% end %>
+
+
+
+<% content_for :student do %>
+  <p>  You are an Student! </p>
+  <p> This is the Show page for student.</p>
+  <br>
+    <% if current_user != @targetuser %>
+      <p><strong> Do not sneak around please. </strong></p>
+      <p><strong> Return to your own infomation page. </strong></p>
+      <p><strong> Your own infomation are shown below. </strong></p>
+    <% end %>
+  <p>
+  <strong>Name:</strong>
+  <%= current_user.name %>
+</p>
+
+<p>
+  <strong>Role:</strong>
+  <%= current_user.role %>
+</p>
+
+
+<p>
+  <strong>Email:</strong>
+  <%= current_user.email %>
+</p>
+
+<p>
+  <strong>Password digest:</strong>
+  <%= current_user.password_digest %>
+</p>
+<br>
+
+<%= link_to 'Edit', edit_user_path(current_user), class: 'button primary'  %>
+<%= link_to 'Back', users_path, class: 'button primary'  %>
+<% end %>
+

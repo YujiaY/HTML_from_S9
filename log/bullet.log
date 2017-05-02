@@ -1,0 +1,334 @@
+2017-04-26 10:45:10[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:courses_contents]
+  Add to your finder: :includes => [:courses_contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_92358468'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_92358468'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_93019476'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_93019476'
+
+2017-04-26 10:45:10[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:contents]
+  Add to your finder: :includes => [:contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_92358468'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_92358468'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_93019476'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_93019476'
+
+2017-04-26 10:45:23[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:courses_contents]
+  Add to your finder: :includes => [:courses_contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_100060620'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_100060620'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_100366776'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_100366776'
+
+2017-04-26 10:45:23[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:contents]
+  Add to your finder: :includes => [:contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_100060620'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_100060620'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_100366776'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_100366776'
+
+2017-04-26 10:45:42[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:courses_contents]
+  Add to your finder: :includes => [:courses_contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_96291684'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_96291684'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_97388220'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_97388220'
+
+2017-04-26 10:45:42[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:contents]
+  Add to your finder: :includes => [:contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_96291684'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_96291684'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_97388220'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_97388220'
+
+2017-04-26 11:26:31[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:courses_contents]
+  Add to your finder: :includes => [:courses_contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_83872740'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_83872740'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_85640100'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_85640100'
+
+2017-04-26 11:26:31[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:contents]
+  Add to your finder: :includes => [:contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_83872740'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_83872740'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_85640100'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_85640100'
+
+2017-04-26 11:33:01[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:courses_contents]
+  Add to your finder: :includes => [:courses_contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_102614796'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_102614796'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_104921544'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_104921544'
+
+2017-04-26 11:33:01[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:contents]
+  Add to your finder: :includes => [:contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_102614796'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_102614796'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_104921544'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_104921544'
+
+2017-04-26 11:33:44[WARN] user: Nancy
+GET /contents
+AVOID eager loading detected
+  Content => [:courses, :contents_courses]
+  Remove from your finder: :includes => [:courses, :contents_courses]
+Call stack
+
+2017-04-26 11:34:06[WARN] user: Nancy
+GET /contents
+AVOID eager loading detected
+  Course => [:users, :courses_users]
+  Remove from your finder: :includes => [:users, :courses_users]
+Call stack
+
+2017-04-26 11:34:06[WARN] user: Nancy
+GET /contents
+AVOID eager loading detected
+  Content => [:courses, :contents_courses]
+  Remove from your finder: :includes => [:courses, :contents_courses]
+Call stack
+
+2017-04-26 11:34:39[WARN] user: Nancy
+GET /contents
+AVOID eager loading detected
+  Content => [:courses, :contents_courses]
+  Remove from your finder: :includes => [:courses, :contents_courses]
+Call stack
+
+2017-04-26 11:35:37[WARN] user: Nancy
+GET /contents
+AVOID eager loading detected
+  Course => [:users, :courses_users]
+  Remove from your finder: :includes => [:users, :courses_users]
+Call stack
+
+2017-04-26 11:35:37[WARN] user: Nancy
+GET /contents
+AVOID eager loading detected
+  Content => [:courses, :contents_courses]
+  Remove from your finder: :includes => [:courses, :contents_courses]
+Call stack
+
+2017-04-26 11:37:05[WARN] user: Nancy
+GET /contents
+AVOID eager loading detected
+  Course => [:users, :courses_users]
+  Remove from your finder: :includes => [:users, :courses_users]
+Call stack
+
+2017-04-26 11:37:05[WARN] user: Nancy
+GET /contents
+AVOID eager loading detected
+  Content => [:courses, :contents_courses]
+  Remove from your finder: :includes => [:courses, :contents_courses]
+Call stack
+
+2017-04-26 11:45:29[WARN] user: Nancy
+GET /contents
+AVOID eager loading detected
+  Course => [:users, :courses_users]
+  Remove from your finder: :includes => [:users, :courses_users]
+Call stack
+
+2017-04-26 11:45:29[WARN] user: Nancy
+GET /contents
+AVOID eager loading detected
+  Content => [:courses, :contents_courses]
+  Remove from your finder: :includes => [:courses, :contents_courses]
+Call stack
+
+2017-04-26 11:47:00[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:courses_contents]
+  Add to your finder: :includes => [:courses_contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_97821744'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_97821744'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_98061336'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_98061336'
+
+2017-04-26 11:47:00[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:contents]
+  Add to your finder: :includes => [:contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_97821744'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_97821744'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_98061336'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_98061336'
+
+2017-04-26 12:13:18[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:courses_contents]
+  Add to your finder: :includes => [:courses_contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_57979908'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_57979908'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_60666684'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_60666684'
+
+2017-04-26 12:13:18[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:contents]
+  Add to your finder: :includes => [:contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_57979908'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_57979908'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_60666684'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_60666684'
+
+2017-04-26 12:16:20[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:courses_contents]
+  Add to your finder: :includes => [:courses_contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_81615108'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_81615108'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_83286900'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_83286900'
+
+2017-04-26 12:16:20[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:contents]
+  Add to your finder: :includes => [:contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_81615108'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_81615108'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_83286900'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_83286900'
+
+2017-04-26 12:17:46[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:courses_contents]
+  Add to your finder: :includes => [:courses_contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_83789316'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_83789316'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_86685276'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_86685276'
+
+2017-04-26 12:17:46[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:contents]
+  Add to your finder: :includes => [:contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_83789316'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_83789316'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_86685276'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_86685276'
+
+2017-04-26 12:18:02[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:courses_contents]
+  Add to your finder: :includes => [:courses_contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_53934660'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_53934660'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_60086532'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_60086532'
+
+2017-04-26 12:18:02[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:contents]
+  Add to your finder: :includes => [:contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_53934660'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_53934660'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_60086532'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_60086532'
+
+2017-04-26 12:29:07[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:courses_contents]
+  Add to your finder: :includes => [:courses_contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_104108136'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_104108136'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_56245188'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_56245188'
+
+2017-04-26 12:29:07[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:contents]
+  Add to your finder: :includes => [:contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_104108136'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_104108136'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_56245188'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_56245188'
+
+2017-04-26 12:29:07[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:courses_contents]
+  Add to your finder: :includes => [:courses_contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_104108136'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_104108136'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_56245188'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_56245188'
+
+2017-04-26 12:29:07[WARN] user: Nancy
+GET /contents
+USE eager loading detected
+  Course => [:contents]
+  Add to your finder: :includes => [:contents]
+Call stack
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:18:in `block in _app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_104108136'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/_show_contents_inside_courses_in_content_index.html.erb:13:in `_app_views_contents__show_contents_inside_courses_in_content_index_html_erb__839487560_104108136'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:65:in `block in _app_views_contents_index_html_erb__263636316_56245188'
+  C:/Users/Nancy/Desktop/ruby/s9/app/views/contents/index.html.erb:61:in `_app_views_contents_index_html_erb__263636316_56245188'
+

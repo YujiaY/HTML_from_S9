@@ -1,0 +1,42 @@
+  <h1>Contents</h1>
+
+  <table class="hover">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="1"></th>
+    </tr>
+  </thead>
+
+<tbody>
+    <% course.contents.each do |course| %>
+      <tr>
+        <td><%= course.name %></td>
+        <td><%= link_to 'Show', course %></td>
+
+      </tr>
+    <% end %>
+  </tbody>
+
+<tbody>
+    <% current_user.courses.each do |course| %>
+      <tr>
+        <td><%= course.name %></td>
+        <td><%= link_to 'Show', course %></td>
+          <tbody>
+           <% course.contents.each do |content| %>
+            <tr>
+           <td><%= content.name %></td>
+            <td><%= link_to 'Show', content %></td>
+
+         </tr>
+          <% end %>
+     </tbody>
+
+      </tr>
+    <% end %>
+  </tbody>
+
+
+
+</table>
