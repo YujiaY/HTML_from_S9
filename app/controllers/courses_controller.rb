@@ -1,6 +1,15 @@
 class CoursesController < ApplicationController
   before_action :set_course, only: [:show, :edit, :update, :destroy]
 
+ rescue_from ActiveRecord::RecordNotFound do |exception|
+    message = "Course with ID #{params[:id]} not found."
+    logger.error message
+   
+    render plain: message
+
+end
+
+
   # GET /courses
   # GET /courses.json
   def index
@@ -13,6 +22,8 @@ class CoursesController < ApplicationController
   # GET /courses/1.json
   def show
   end
+
+
 
   # GET /courses/new
   def new
@@ -73,4 +84,5 @@ class CoursesController < ApplicationController
     def course_params
       params.require(:course).permit(:name)
     end
+
 end

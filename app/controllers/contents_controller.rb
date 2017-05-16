@@ -1,6 +1,8 @@
 class ContentsController < ApplicationController
   before_action :set_content, only: [:show, :edit, :update, :destroy]
 
+
+
   # GET /contents
   # GET /contents.json
   def index
@@ -15,7 +17,22 @@ class ContentsController < ApplicationController
   # GET /contents/1
   # GET /contents/1.json
   def show
+      @contentshow = Content.find_by(name: params[:name])
+          
   end
+
+  def preview
+    
+    #@contentinpreview = Content.find(params[:content_id])
+          if Content.exists?(id: params[:id])
+        @contentinpreview = Content.find(params[:id])
+      else
+        @contentinpreview = Content.find_by(name: params[:id])
+
+      end
+ 
+  end
+
 
   # GET /contents/new
   def new
@@ -69,7 +86,19 @@ class ContentsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_content
-      @content = Content.find(params[:id])
+      #if Content.exists?(name: params[:name])
+      if Content.exists?(id: params[:id])
+        @content = Content.find(params[:id])
+      else
+        @content = Content.find_by(name: params[:id])
+
+      end
+
+      #@contentshow = Content.find_by(name: params[:name])
+   # else
+     # @content = Content.find_by(id: params[:id])
+    #end
+
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
