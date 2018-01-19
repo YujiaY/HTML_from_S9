@@ -1,24 +1,14 @@
-# README
+Using Ruby Environment:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+cmd
+rails server –e development
 
-Things you may want to cover:
 
-* Ruby version
+http://localhost:3000/
+admin:
+someemail2@example.com
+foobar
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+student:
+s@s.c
+foobar
